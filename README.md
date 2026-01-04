@@ -1,11 +1,11 @@
-#这里是个人项目Openvla针对Libero仿真的复现过程，只记录重要节点及流程。
+# 这里是个人项目Openvla针对Libero仿真的复现过程，只记录重要节点及流程。
 #
 
 1、
 
-#搭建openvla所需要的虚拟环境：
+# 搭建openvla所需要的虚拟环境：
 
-#根据官方的步骤走：（常常最后一步pip install "flash-attn==2.5.5" --no-build-isolation 会有报错，原因是pyproject.toml中的一些库需要自己修改）：下列为官方的流程
+# 根据官方的步骤走：（常常最后一步pip install "flash-attn==2.5.5" --no-build-isolation 会有报错，原因是pyproject.toml中的一些库需要自己修改）：下列为官方的流程
 
 
 conda create -n openvla python=3.10 -y
@@ -24,7 +24,7 @@ ninja --version; echo $?  # Verify Ninja --> should return exit code "0"
 pip install "flash-attn==2.5.5" --no-build-isolation
 
 
-#现在安装正确流程（openvla和openvla-oft环境都可以通用，一个模型训练前后）的：
+# 现在安装正确流程（openvla和openvla-oft环境都可以通用，一个模型训练前后）的：
 
 git clone https://github.com/moojink/openvla-oft.git 
 cd openvla-oft
@@ -37,7 +37,7 @@ cd openvla-oft
 
 "numpy==1.26.4"
 
-#修改保存之后即可进行下一步
+# 修改保存之后即可进行下一步
 
 conda create -y -n openvla_x python=3.10
 conda activate openvla_x
