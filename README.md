@@ -108,7 +108,10 @@ task_suite_name       要对应pretrained_checkpoint哪个任务下的模型
 "
 ![alt text](libero_test1.png)
 ![alt text](libero_test2.png)
+
+
 保存的录像结果为下
+
 <video controls src="2025_12_18-20_38_26--episode=20--success=False--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4" title="Title"></video> 
 
 <video controls src="2025_12_18-20_38_26--episode=16--success=True--task=pick_up_the_black_bowl_between_the_plate_and_the_r.mp4" title="Title"></video> 
