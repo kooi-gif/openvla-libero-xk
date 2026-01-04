@@ -24,7 +24,7 @@ pip install "flash-attn==2.5.5" --no-build-isolation
 "
 #现在安装正确流程（openvla和openvla-oft环境都可以通用，一个模型训练前后）的：
 "
-git clone https://github.com/moojink/openvla-oft.git
+git clone https://github.com/moojink/openvla-oft.git 
 cd openvla-oft
 修改pyproject.toml中的 
 "transformers @git+https://github.com/moojink/openvla-oft.git@v4.40.1openvla-oft"
